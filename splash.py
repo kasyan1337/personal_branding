@@ -56,7 +56,7 @@ def show_splash(duration=4000):
     current_year = datetime.now().year
     bottom_frame = tk.Frame(splash, bg="white")
     bottom_frame.pack(side="bottom", pady=20)
-    label_developed = Label(bottom_frame, text="Developed bybyby ", font=("Helvetica", 10), bg="white", fg="#333333")
+    label_developed = Label(bottom_frame, text="Developed by ", font=("Helvetica", 10), bg="white", fg="#333333")
     label_developed.pack(side="left")
     clickable_label = Label(bottom_frame, text="Kasim Janci", font=("Helvetica", 10, "underline"), fg="#1a0dab", cursor="hand2", bg="white")
     clickable_label.pack(side="left")
