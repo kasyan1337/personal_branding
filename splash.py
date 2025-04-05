@@ -108,5 +108,6 @@ def show_splash(duration=4000):
     except Exception as e:
         logging.error("Error in show_splash: %s", e)
 
+
 if __name__ == "__main__":
     show_splash()
