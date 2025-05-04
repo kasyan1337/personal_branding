@@ -1,1 +1,6 @@
 pillow
+pywebview
+qtpy
+PyQt5
+PyQtWebEngine
+node

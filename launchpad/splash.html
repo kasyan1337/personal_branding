@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading…</title>
+  <link rel="stylesheet" href="splash.css">
+</head>
+<body>
+  <div id="container">
+    <div id="logo-row">
+      <img id="logo-main" src="logo.png" alt="Main Logo">
+      <img id="logo-partner" src="partner-logo.png" alt="Partner Logo">
+    </div>
+    <h1 id="title">Kasim LaunchPad</h1>
+    <div id="spinner"></div>
+    <div id="footer">
+      Developed by <a href="https://github.com/kasyan1337" target="_blank">Kasim Janci</a>
+      | Visit <a href="https://kasimdev.eu" target="_blank">kasimdev.eu</a>
+      | © <span id="year"></span>
+    </div>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading…</title>
+  <link rel="stylesheet" href="splash.css">
+  <script>
+  window.splashDuration = {splash_duration};
+</script>
+<script src="splash.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="logo-container">
+      <img id="logo-main" src="{logo_main}" alt="Main Logo">
+      <img id="logo-partner" src="{logo_partner}" alt="Partner Logo">
+    </div>
+    <h1 id="title">{project_name}</h1>
+    <div id="spinner"></div>
+    <div id="footer">
+      Developed by <a id="author" href="#">{author}</a> |
+      <a id="website" href="#">{website_url}</a> |
+      © <span id="year"></span>
+    </div>
+  </div>
+</body>
+</html>
